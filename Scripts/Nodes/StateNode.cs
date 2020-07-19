@@ -18,7 +18,7 @@ namespace PaperStag.FSM
         public StateNode _exitState;
 
         [SerializeReference]
-		[SelectImplementation(typeof(State))]
+		[SelectImpl(typeof(State))]
 		protected State _implementation;
 		public State State => _implementation;
 

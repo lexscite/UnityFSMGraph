@@ -17,7 +17,7 @@ namespace PaperStag.FSM
         public FSMNode _to;
 
         [SerializeReference]
-        [SelectImplementation(typeof(Condition))]
+        [SelectImpl(typeof(Condition))]
         protected Condition _implementation;
         public Condition Condition => _implementation;
 
