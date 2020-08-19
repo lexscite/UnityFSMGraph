@@ -1,0 +1,16 @@
+{
+  "name": "com.lexscite.fsm-graph",
+  "displayName": "FSMGraph",
+  "version": "1.0.0",
+  "unity": "2019.3",
+  "description": "xNode based FSM graph",
+  "keywords": [ "fsm", "graph", "inspector", "editor" ],
+  "category": "fsm",
+  "dependencies": {
+    "com.lexscite.select-impl-attribute": "https://github.com/lexscite/UnitySelectImplAttribute.git#upm"
+  },
+  "author": {
+    "name": "Lexscite",
+    "email": "lexscite@gmail.com"
+  }
+}
