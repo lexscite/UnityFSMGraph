@@ -1,7 +1,10 @@
 {
     "name": "FSMEditor",
     "references": [
-        "FSMRuntime"
+        "FSMRuntime",
+        "Editor",
+        "xNodeEditor",
+        "xNodeRuntime"
     ],
     "includePlatforms": [
         "Editor"
